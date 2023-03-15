@@ -203,7 +203,6 @@
     };
 
     pdf.addImage(imgData, 'PNG', 5, 5, 35, 14);
-    pdf.text(20,20,"totalDays");
     // Generate the table
     pdf.autoTable(columns, rows, tableOptions);
     pdf.setFontSize(22);
